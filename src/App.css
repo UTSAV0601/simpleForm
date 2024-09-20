@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+header {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  text-align: left;
+}
+
+.burger-icon {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #3c6ba1;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    transition: left 0.3s ease;
+    z-index: 1000; 
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
