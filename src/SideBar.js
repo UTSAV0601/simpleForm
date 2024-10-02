@@ -8,7 +8,7 @@ const SideBar = ({ isOpen, onToggleMode, isDarkMode, onClose }) => {
                 X
             </button>
             <h3>Settings</h3>
-            <div className="mode-toggle">
+            <div className="mode-toggle"> 
                 <label>
                     <input
                         type="checkbox"
